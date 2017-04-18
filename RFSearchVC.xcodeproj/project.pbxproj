@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C6F1AEF1EA5B8C800367657 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1AEE1EA5B8C800367657 /* main.m */; };
+		5C6F1AF21EA5B8C800367657 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1AF11EA5B8C800367657 /* AppDelegate.m */; };
+		5C6F1AF51EA5B8C800367657 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1AF41EA5B8C800367657 /* ViewController.m */; };
+		5C6F1AF81EA5B8C800367657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F1AF61EA5B8C800367657 /* Main.storyboard */; };
+		5C6F1AFA1EA5B8C800367657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F1AF91EA5B8C800367657 /* Assets.xcassets */; };
+		5C6F1AFD1EA5B8C800367657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F1AFB1EA5B8C800367657 /* LaunchScreen.storyboard */; };
+		5C6F1B081EA5B8C800367657 /* RFSearchVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1B071EA5B8C800367657 /* RFSearchVCTests.m */; };
+		5C6F1B131EA5B8C800367657 /* RFSearchVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1B121EA5B8C800367657 /* RFSearchVCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C6F1B041EA5B8C800367657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6F1AE21EA5B8C800367657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C6F1AE91EA5B8C800367657;
+			remoteInfo = RFSearchVC;
+		};
+		5C6F1B0F1EA5B8C800367657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6F1AE21EA5B8C800367657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C6F1AE91EA5B8C800367657;
+			remoteInfo = RFSearchVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C6F1AEA1EA5B8C800367657 /* RFSearchVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFSearchVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6F1AEE1EA5B8C800367657 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C6F1AF01EA5B8C800367657 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C6F1AF11EA5B8C800367657 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C6F1AF31EA5B8C800367657 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C6F1AF41EA5B8C800367657 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C6F1AF71EA5B8C800367657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C6F1AF91EA5B8C800367657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C6F1AFC1EA5B8C800367657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C6F1AFE1EA5B8C800367657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6F1B031EA5B8C800367657 /* RFSearchVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFSearchVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6F1B071EA5B8C800367657 /* RFSearchVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFSearchVCTests.m; sourceTree = "<group>"; };
+		5C6F1B091EA5B8C800367657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6F1B0E1EA5B8C800367657 /* RFSearchVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFSearchVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6F1B121EA5B8C800367657 /* RFSearchVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFSearchVCUITests.m; sourceTree = "<group>"; };
+		5C6F1B141EA5B8C800367657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C6F1AE71EA5B8C800367657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6F1B001EA5B8C800367657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6F1B0B1EA5B8C800367657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C6F1AE11EA5B8C800367657 = {
+			isa = PBXGroup;
+			children = (
+				5C6F1AEC1EA5B8C800367657 /* RFSearchVC */,
+				5C6F1B061EA5B8C800367657 /* RFSearchVCTests */,
+				5C6F1B111EA5B8C800367657 /* RFSearchVCUITests */,
+				5C6F1AEB1EA5B8C800367657 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C6F1AEB1EA5B8C800367657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F1AEA1EA5B8C800367657 /* RFSearchVC.app */,
+				5C6F1B031EA5B8C800367657 /* RFSearchVCTests.xctest */,
+				5C6F1B0E1EA5B8C800367657 /* RFSearchVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C6F1AEC1EA5B8C800367657 /* RFSearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F1AF01EA5B8C800367657 /* AppDelegate.h */,
+				5C6F1AF11EA5B8C800367657 /* AppDelegate.m */,
+				5C6F1AF31EA5B8C800367657 /* ViewController.h */,
+				5C6F1AF41EA5B8C800367657 /* ViewController.m */,
+				5C6F1AF61EA5B8C800367657 /* Main.storyboard */,
+				5C6F1AF91EA5B8C800367657 /* Assets.xcassets */,
+				5C6F1AFB1EA5B8C800367657 /* LaunchScreen.storyboard */,
+				5C6F1AFE1EA5B8C800367657 /* Info.plist */,
+				5C6F1AED1EA5B8C800367657 /* Supporting Files */,
+			);
+			path = RFSearchVC;
+			sourceTree = "<group>";
+		};
+		5C6F1AED1EA5B8C800367657 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F1AEE1EA5B8C800367657 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C6F1B061EA5B8C800367657 /* RFSearchVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F1B071EA5B8C800367657 /* RFSearchVCTests.m */,
+				5C6F1B091EA5B8C800367657 /* Info.plist */,
+			);
+			path = RFSearchVCTests;
+			sourceTree = "<group>";
+		};
+		5C6F1B111EA5B8C800367657 /* RFSearchVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F1B121EA5B8C800367657 /* RFSearchVCUITests.m */,
+				5C6F1B141EA5B8C800367657 /* Info.plist */,
+			);
+			path = RFSearchVCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C6F1AE91EA5B8C800367657 /* RFSearchVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6F1B171EA5B8C800367657 /* Build configuration list for PBXNativeTarget "RFSearchVC" */;
+			buildPhases = (
+				5C6F1AE61EA5B8C800367657 /* Sources */,
+				5C6F1AE71EA5B8C800367657 /* Frameworks */,
+				5C6F1AE81EA5B8C800367657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFSearchVC;
+			productName = RFSearchVC;
+			productReference = 5C6F1AEA1EA5B8C800367657 /* RFSearchVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C6F1B021EA5B8C800367657 /* RFSearchVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6F1B1A1EA5B8C800367657 /* Build configuration list for PBXNativeTarget "RFSearchVCTests" */;
+			buildPhases = (
+				5C6F1AFF1EA5B8C800367657 /* Sources */,
+				5C6F1B001EA5B8C800367657 /* Frameworks */,
+				5C6F1B011EA5B8C800367657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6F1B051EA5B8C800367657 /* PBXTargetDependency */,
+			);
+			name = RFSearchVCTests;
+			productName = RFSearchVCTests;
+			productReference = 5C6F1B031EA5B8C800367657 /* RFSearchVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C6F1B0D1EA5B8C800367657 /* RFSearchVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6F1B1D1EA5B8C800367657 /* Build configuration list for PBXNativeTarget "RFSearchVCUITests" */;
+			buildPhases = (
+				5C6F1B0A1EA5B8C800367657 /* Sources */,
+				5C6F1B0B1EA5B8C800367657 /* Frameworks */,
+				5C6F1B0C1EA5B8C800367657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6F1B101EA5B8C800367657 /* PBXTargetDependency */,
+			);
+			name = RFSearchVCUITests;
+			productName = RFSearchVCUITests;
+			productReference = 5C6F1B0E1EA5B8C800367657 /* RFSearchVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C6F1AE21EA5B8C800367657 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = RockyFung;
+				TargetAttributes = {
+					5C6F1AE91EA5B8C800367657 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EF3UZLJ4ZY;
+						ProvisioningStyle = Automatic;
+					};
+					5C6F1B021EA5B8C800367657 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EF3UZLJ4ZY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C6F1AE91EA5B8C800367657;
+					};
+					5C6F1B0D1EA5B8C800367657 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EF3UZLJ4ZY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C6F1AE91EA5B8C800367657;
+					};
+				};
+			};
+			buildConfigurationList = 5C6F1AE51EA5B8C800367657 /* Build configuration list for PBXProject "RFSearchVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C6F1AE11EA5B8C800367657;
+			productRefGroup = 5C6F1AEB1EA5B8C800367657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C6F1AE91EA5B8C800367657 /* RFSearchVC */,
+				5C6F1B021EA5B8C800367657 /* RFSearchVCTests */,
+				5C6F1B0D1EA5B8C800367657 /* RFSearchVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C6F1AE81EA5B8C800367657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6F1AFD1EA5B8C800367657 /* LaunchScreen.storyboard in Resources */,
+				5C6F1AFA1EA5B8C800367657 /* Assets.xcassets in Resources */,
+				5C6F1AF81EA5B8C800367657 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6F1B011EA5B8C800367657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6F1B0C1EA5B8C800367657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6F1AE61EA5B8C800367657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6F1AF51EA5B8C800367657 /* ViewController.m in Sources */,
+				5C6F1AF21EA5B8C800367657 /* AppDelegate.m in Sources */,
+				5C6F1AEF1EA5B8C800367657 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6F1AFF1EA5B8C800367657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6F1B081EA5B8C800367657 /* RFSearchVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6F1B0A1EA5B8C800367657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6F1B131EA5B8C800367657 /* RFSearchVCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C6F1B051EA5B8C800367657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C6F1AE91EA5B8C800367657 /* RFSearchVC */;
+			targetProxy = 5C6F1B041EA5B8C800367657 /* PBXContainerItemProxy */;
+		};
+		5C6F1B101EA5B8C800367657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C6F1AE91EA5B8C800367657 /* RFSearchVC */;
+			targetProxy = 5C6F1B0F1EA5B8C800367657 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C6F1AF61EA5B8C800367657 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6F1AF71EA5B8C800367657 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C6F1AFB1EA5B8C800367657 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6F1AFC1EA5B8C800367657 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C6F1B151EA5B8C800367657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C6F1B161EA5B8C800367657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C6F1B181EA5B8C800367657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EF3UZLJ4ZY;
+				INFOPLIST_FILE = RFSearchVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaochunxinyu.RFSearchVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C6F1B191EA5B8C800367657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EF3UZLJ4ZY;
+				INFOPLIST_FILE = RFSearchVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaochunxinyu.RFSearchVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C6F1B1B1EA5B8C800367657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EF3UZLJ4ZY;
+				INFOPLIST_FILE = RFSearchVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaochunxinyu.RFSearchVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFSearchVC.app/RFSearchVC";
+			};
+			name = Debug;
+		};
+		5C6F1B1C1EA5B8C800367657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EF3UZLJ4ZY;
+				INFOPLIST_FILE = RFSearchVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaochunxinyu.RFSearchVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFSearchVC.app/RFSearchVC";
+			};
+			name = Release;
+		};
+		5C6F1B1E1EA5B8C800367657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EF3UZLJ4ZY;
+				INFOPLIST_FILE = RFSearchVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaochunxinyu.RFSearchVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RFSearchVC;
+			};
+			name = Debug;
+		};
+		5C6F1B1F1EA5B8C800367657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EF3UZLJ4ZY;
+				INFOPLIST_FILE = RFSearchVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaochunxinyu.RFSearchVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RFSearchVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6F1AE51EA5B8C800367657 /* Build configuration list for PBXProject "RFSearchVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6F1B151EA5B8C800367657 /* Debug */,
+				5C6F1B161EA5B8C800367657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6F1B171EA5B8C800367657 /* Build configuration list for PBXNativeTarget "RFSearchVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6F1B181EA5B8C800367657 /* Debug */,
+				5C6F1B191EA5B8C800367657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C6F1B1A1EA5B8C800367657 /* Build configuration list for PBXNativeTarget "RFSearchVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6F1B1B1EA5B8C800367657 /* Debug */,
+				5C6F1B1C1EA5B8C800367657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C6F1B1D1EA5B8C800367657 /* Build configuration list for PBXNativeTarget "RFSearchVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6F1B1E1EA5B8C800367657 /* Debug */,
+				5C6F1B1F1EA5B8C800367657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C6F1AE21EA5B8C800367657 /* Project object */;
+}
