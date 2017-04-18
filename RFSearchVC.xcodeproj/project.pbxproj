@@ -15,6 +15,9 @@
 		5C6F1AFD1EA5B8C800367657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F1AFB1EA5B8C800367657 /* LaunchScreen.storyboard */; };
 		5C6F1B081EA5B8C800367657 /* RFSearchVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1B071EA5B8C800367657 /* RFSearchVCTests.m */; };
 		5C6F1B131EA5B8C800367657 /* RFSearchVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1B121EA5B8C800367657 /* RFSearchVCUITests.m */; };
+		5C6F1B231EA5B9F000367657 /* RFSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1B221EA5B9F000367657 /* RFSearchViewController.m */; };
+		5C6F1B291EA5C65900367657 /* ic_searchBar_bgImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F1B261EA5C65900367657 /* ic_searchBar_bgImage@2x.png */; };
+		5C6F1B2C1EA5E78F00367657 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F1B2B1EA5E78F00367657 /* UIScrollView+EmptyDataSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		5C6F1B0E1EA5B8C800367657 /* RFSearchVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFSearchVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6F1B121EA5B8C800367657 /* RFSearchVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFSearchVCUITests.m; sourceTree = "<group>"; };
 		5C6F1B141EA5B8C800367657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6F1B211EA5B9F000367657 /* RFSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFSearchViewController.h; sourceTree = "<group>"; };
+		5C6F1B221EA5B9F000367657 /* RFSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFSearchViewController.m; sourceTree = "<group>"; };
+		5C6F1B261EA5C65900367657 /* ic_searchBar_bgImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_searchBar_bgImage@2x.png"; sourceTree = "<group>"; };
+		5C6F1B2A1EA5E78F00367657 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		5C6F1B2B1EA5E78F00367657 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,9 @@
 		5C6F1AEC1EA5B8C800367657 /* RFSearchVC */ = {
 			isa = PBXGroup;
 			children = (
+				5C6F1B2A1EA5E78F00367657 /* UIScrollView+EmptyDataSet.h */,
+				5C6F1B2B1EA5E78F00367657 /* UIScrollView+EmptyDataSet.m */,
+				5C6F1B201EA5B9D900367657 /* SearchVC */,
 				5C6F1AF01EA5B8C800367657 /* AppDelegate.h */,
 				5C6F1AF11EA5B8C800367657 /* AppDelegate.m */,
 				5C6F1AF31EA5B8C800367657 /* ViewController.h */,
@@ -138,6 +149,16 @@
 				5C6F1B141EA5B8C800367657 /* Info.plist */,
 			);
 			path = RFSearchVCUITests;
+			sourceTree = "<group>";
+		};
+		5C6F1B201EA5B9D900367657 /* SearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F1B261EA5C65900367657 /* ic_searchBar_bgImage@2x.png */,
+				5C6F1B211EA5B9F000367657 /* RFSearchViewController.h */,
+				5C6F1B221EA5B9F000367657 /* RFSearchViewController.m */,
+			);
+			path = SearchVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C6F1AFD1EA5B8C800367657 /* LaunchScreen.storyboard in Resources */,
+				5C6F1B291EA5C65900367657 /* ic_searchBar_bgImage@2x.png in Resources */,
 				5C6F1AFA1EA5B8C800367657 /* Assets.xcassets in Resources */,
 				5C6F1AF81EA5B8C800367657 /* Main.storyboard in Resources */,
 			);
@@ -276,9 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6F1B231EA5B9F000367657 /* RFSearchViewController.m in Sources */,
 				5C6F1AF51EA5B8C800367657 /* ViewController.m in Sources */,
 				5C6F1AF21EA5B8C800367657 /* AppDelegate.m in Sources */,
 				5C6F1AEF1EA5B8C800367657 /* main.m in Sources */,
+				5C6F1B2C1EA5E78F00367657 /* UIScrollView+EmptyDataSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
